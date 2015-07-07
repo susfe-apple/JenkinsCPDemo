@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
 require 'net/http'
-#require 'test/unit'
 require 'minitest/autorun'
 require 'socket'
 
