@@ -5,7 +5,7 @@ require 'rubygems'
 require 'rake'
 require 'haml'
 
-task default: :compile
+task :default => [:compile]
 
 task :compile do
    FileList.new('./src/*.html.haml').each do |filename|

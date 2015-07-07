@@ -1,1 +1,6 @@
+.gitignore
 *.html
+*.sublime-project
+*.sublime-workspace	
+test.sublime-workspace
+test/test_rake_cmd.txt
