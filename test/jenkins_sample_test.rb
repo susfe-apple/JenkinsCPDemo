@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+require 'gem "minitest"'
 require 'net/http'
 require 'test/unit'
 require 'socket'

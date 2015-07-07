@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+require 'gem "minitest"'
 require 'rake/testtask'
 require 'rubygems'
 require 'rake'
