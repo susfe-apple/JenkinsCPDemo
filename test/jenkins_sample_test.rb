@@ -1,10 +1,11 @@
 #!/usr/bin/env ruby
 
 require 'net/http'
-require 'test/unit'
+#require 'test/unit'
+require 'minitest/autorun'
 require 'socket'
 
-class JenkinsSampleTest  < Test::Unit::TestCase
+class JenkinsSampleTest < MiniTest::Unit::TestCase
    def setup
       @webpage = Net::HTTP.get(URI("http://#{ENV['TEST_IP_ADDRESS']}:8000/index.html"))
    end
