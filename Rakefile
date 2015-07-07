@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'minitest/autorun'
 require 'rake/testtask'
 require 'rubygems'
 require 'rake'

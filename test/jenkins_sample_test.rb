@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'minitest/autorun'
 require 'net/http'
 require 'test/unit'
 require 'socket'
